@@ -1,6 +1,3 @@
-local fpsBoost = fpsBoost or false
-
-
 if not getconnections then return end
 for i,v in next, getconnections(game.Players.LocalPlayer.Idled) do
     v:Disable()
